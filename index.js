@@ -23,7 +23,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: "https://let-s-talk-frontend-eight.vercel.app/",
     methods: ["GET", "POST", "PUT", "DELETE"],
   },
 });
